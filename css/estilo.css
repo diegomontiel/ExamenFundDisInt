@@ -1,0 +1,34 @@
+html, body{
+    height: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*cover*/
+
+#cover{
+    background:#222 url('../img/s.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height:100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-texto{
+    width: 100%;
+}
+
+#cover-texto .form-inline{
+    padding: 5rem,0;
+}
+
+#footer{
+    background:#222;
+    color:white;
+    font-size: 0.8rem;
+    padding: 2.5rem;
+}
